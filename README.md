@@ -54,6 +54,8 @@ function App() {
     </Fade>
   );
 }
+
+export default App;
 ```
 
 ### Slide Animation
@@ -68,6 +70,8 @@ function App() {
     </Slide>
   );
 }
+
+export default App;
 ```
 
 ### Staggered Animations
@@ -84,6 +88,8 @@ function App() {
     </StaggerContainer>
   );
 }
+
+export default App;
 ```
 
 ### Parallax Effect
@@ -114,6 +120,8 @@ function App() {
     </AnimationConfigProvider>
   );
 }
+
+export default App;
 ```
 
 ## 🤖 API Reference
