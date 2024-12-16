@@ -5,32 +5,36 @@
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "exports": {
-      ".": {
-        "require": "./dist/index.js",
-        "import": "./dist/index.mjs"
-      },
-      "./src/*": "./src/*"
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs"
+        },
+        "./src/*": "./src/*"
     },
     "dependencies": {
-      "framer-motion": "^10.0.0",
-      "react": "^18.0.0",
-      "react-dom": "^18.0.0"
+        "framer-motion": "^10.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
     },
     "peerDependencies": {
-      "react": "^18.0.0",
-      "framer-motion": "^10.0.0"
+        "framer-motion": "^10.0.0",
+        "react": "^18.0.0"
     },
-    "keywords": ["framer-motion", "animations", "react", "utility"],
+    "keywords": [
+        "framer-motion",
+        "animations",
+        "react",
+        "utility"
+    ],
     "author": "Rajdip Bandopadhyay",
     "license": "MIT",
     "scripts": {
-      "build": "babel src -d dist"
+        "build": "babel src -d dist"
     },
     "devDependencies": {
-      "@babel/core": "^7.12.10",
-      "@babel/preset-env": "^7.12.11",
-      "@babel/preset-react": "^7.12.10",
-      "babel-loader": "^8.2.2"
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.26.0",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^8.2.2"
     }
-  }
-  
+}
