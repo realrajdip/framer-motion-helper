@@ -2,7 +2,21 @@
 
 `framer-motion-helper` is a utility library designed to simplify animations using Framer Motion in React applications. It provides reusable components, hooks, and utilities to speed up the animation process and enhance developer productivity.
 
-## Features
+## 🚀 Installation
+
+Install the package using npm or yarn:
+
+```bash
+npm install framer-motion-helper
+```
+
+Or:
+
+```bash
+yarn add framer-motion-helper
+```
+
+## 🟩 Features
 
 ### Components
 - **Fade**: Quickly add fade-in/out animations to any element.
@@ -24,21 +38,9 @@
 ### Responsive Animations
 Handle animations dynamically based on screen sizes.
 
-## Installation
 
-Install the package using npm or yarn:
 
-```bash
-npm install framer-motion-helper
-```
-
-Or:
-
-```bash
-yarn add framer-motion-helper
-```
-
-## Usage
+## 🖥️ Usage
 
 ### Basic Example: Fade Animation
 
@@ -114,7 +116,7 @@ function App() {
 }
 ```
 
-## API Reference
+## 🤖 API Reference
 
 ### Components
 
@@ -140,9 +142,15 @@ function App() {
 #### useViewportProgress
 - **Parameter**: `ref` (Ref) - A React ref to track viewport progress.
 
-## Contributing
+## Contributors ✨
 
-Contributions are welcome! Please submit a pull request or open an issue for feature requests or bug fixes.
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/realrajdip"><img src="https://gravatar.com/galaxyvery8c553b013f" width="100px;" alt=""/><br /><sub><b>Rajdip Bandopadhyay</b></sub></a><br /><a href="https://github.com/realrajdip/use-image/commits?author=realrajdip" title="Code">💻</a> <a href="https://github.com/realrajdip/framer-motion-helper/commits?author=realrajdip" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
 
 ## License
 
