@@ -1,9 +1,16 @@
 {
     "name": "framer-motion-helper",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A utility library for simplifying Framer Motion animations in React.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
+    "exports": {
+      ".": {
+        "require": "./dist/index.js",
+        "import": "./dist/index.mjs"
+      },
+      "./src/*": "./src/*"
+    },
     "dependencies": {
       "framer-motion": "^10.0.0",
       "react": "^18.0.0",
