@@ -1,0 +1,19 @@
+{
+    "name": "framer-motion-helper",
+    "version": "1.0.0",
+    "description": "A utility library for simplifying Framer Motion animations in React.",
+    "main": "src/index.js",
+    "dependencies": {
+      "framer-motion": "^10.0.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "framer-motion": "^10.0.0"
+    },
+    "keywords": ["framer-motion", "animations", "react", "utility"],
+    "author": "Rajdip Bandopadhyay",
+    "license": "MIT"
+  }
+  
