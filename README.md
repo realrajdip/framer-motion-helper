@@ -1,4 +1,3 @@
-
 # framer-motion-helper
 
 `framer-motion-helper` is a utility library designed to simplify animations using Framer Motion in React applications. It provides reusable components, hooks, and utilities to speed up the animation process and enhance developer productivity.
